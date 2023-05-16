@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./main.css">
+  <script type="module" defer src="main.js"></script>
+  <title>가위바위보</title>
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="container">
+    <div class="choice">
+      <div class="block">
+        <h3>컴퓨터 선택 :</h3>
+        <p class="computer-choice"> ??</p>
+        &#47;
+      </div>
+      
+      <div class="block">
+        <h3>당신 선택 :</h3>
+        <p class="you-choice"> ??</p>
+      </div>   
+    </div>
+    <div class="game__pc-selection">
+      <img src="https://sypear.github.io/game-world/img/game-rps/scissors.png" alt="컴퓨터 선택: 가위" class="game__pc-selection--image" id="pc-image" />
+    </div>
+  </div>      <!-- end of container -->
+
+  <div class="buttons">
+    <button class="red">가위</button>
+    <button class="blue">바위</button>
+    <button class="green">보</button>
+  </div>   <!-- end of buttons -->
+
+  <div class="result">가위바위보!</div>
+</div>
+</body>
+</html>

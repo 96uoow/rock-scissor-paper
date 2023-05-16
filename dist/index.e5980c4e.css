@@ -1,0 +1,98 @@
+body {
+  height: 960px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.wrapper {
+  width: 600px;
+  height: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.container .choice {
+  flex-direction: row;
+  display: flex;
+}
+
+.container .block {
+  flex-direction: row;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+  display: flex;
+}
+
+.container .block:nth-child(1), .container .block:nth-child(1) p, .container .block h3 {
+  padding-right: 5px;
+}
+
+.container .game__pc-selection img {
+  width: 300px;
+  height: 300px;
+}
+
+.buttons {
+  padding: 50px 0 20px;
+}
+
+.buttons button {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.buttons .red {
+  background-color: tomato;
+}
+
+.buttons .blue {
+  background-color: #4169e1;
+}
+
+.buttons .green {
+  background-color: #83dcb7;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.restart {
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: coral;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.restart.show {
+  display: block;
+}
+
+/*# sourceMappingURL=index.e5980c4e.css.map */
